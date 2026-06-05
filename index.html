@@ -43,13 +43,13 @@ img{display:block}
 .btn-pub:hover{opacity:.88}
 
 /* ─── BANNER ─── */
-.banner{width:100%;background:linear-gradient(130deg,#1C0500 0%,#2D0E00 40%,#1A0800 75%,#0D0414 100%);position:relative;overflow:hidden}
-.banner::before{content:'';position:absolute;top:-100px;left:5%;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(255,107,26,.22) 0%,transparent 65%);pointer-events:none}
-.banner::after{content:'';position:absolute;bottom:-80px;right:10%;width:400px;height:400px;border-radius:50%;background:radial-gradient(circle,rgba(255,60,107,.1) 0%,transparent 65%);pointer-events:none}
+.banner{width:100%;background:linear-gradient(130deg,#000308 0%,#000C1F 45%,#001430 70%,#000208 100%);position:relative;overflow:hidden}
+.banner::before{content:'';position:absolute;top:-100px;left:5%;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(0,80,200,.14) 0%,transparent 65%);pointer-events:none}
+.banner::after{content:'';position:absolute;bottom:-80px;right:10%;width:400px;height:400px;border-radius:50%;background:radial-gradient(circle,rgba(0,120,220,.07) 0%,transparent 65%);pointer-events:none}
 .banner-inner{max-width:1240px;margin:0 auto;padding:20px 24px 24px;display:flex;align-items:center;justify-content:space-between;gap:40px;position:relative;z-index:1}
 .banner-left{flex:1;min-width:0}
 .banner-kws{display:flex;gap:8px;margin-bottom:13px;flex-wrap:wrap}
-.bkw{font-size:12px;font-weight:600;padding:3px 11px;border-radius:20px;border:1px solid rgba(255,107,26,.35);color:rgba(255,255,255,.8);background:rgba(255,107,26,.12);letter-spacing:.3px}
+.bkw{font-size:12px;font-weight:600;padding:3px 11px;border-radius:20px;border:1px solid rgba(64,160,255,.35);color:rgba(255,255,255,.8);background:rgba(64,160,255,.12);letter-spacing:.3px}
 .banner-title{font-size:26px;font-weight:900;color:#fff;line-height:1.25;margin-bottom:8px;letter-spacing:-.5px}
 .banner-title em{font-style:normal;color:rgba(255,255,255,.55);font-weight:400;font-size:15px;display:block;margin-top:4px;letter-spacing:.5px}
 .banner-sub{font-size:13px;color:rgba(255,255,255,.65);line-height:1.75;margin-bottom:0;max-width:500px}
@@ -58,7 +58,7 @@ img{display:block}
 .bst-n{font-size:22px;font-weight:800;color:#fff;line-height:1}
 .bst-l{font-size:11px;color:rgba(255,255,255,.5);margin-top:3px}
 .banner-btns{display:flex;gap:10px;align-items:center}
-.bbtn-p{padding:9px 24px;background:var(--pr);color:#fff;border:none;border-radius:6px;font-size:14px;font-weight:700;cursor:pointer;font-family:inherit;box-shadow:0 4px 16px rgba(255,107,26,.5);transition:opacity .15s}
+.bbtn-p{padding:9px 24px;background:linear-gradient(135deg,#1565C0,#1E90FF);color:#fff;border:none;border-radius:6px;font-size:14px;font-weight:700;cursor:pointer;font-family:inherit;box-shadow:0 4px 16px rgba(30,144,255,.45);transition:opacity .15s}
 .bbtn-p:hover{opacity:.88}
 .bbtn-s{padding:9px 20px;background:rgba(255,255,255,.08);color:rgba(255,255,255,.8);border:1px solid rgba(255,255,255,.2);border-radius:6px;font-size:14px;font-weight:400;cursor:pointer;font-family:inherit;transition:all .15s}
 .bbtn-s:hover{background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.4)}
@@ -271,12 +271,12 @@ footer{background:#fff;border-top:1px solid var(--bd);padding:20px 0}
     <svg class="logo-icon" viewBox="0 0 40 40" width="36" height="36" fill="none" xmlns="http://www.w3.org/2000/svg">
       <!-- 白色底 + 细边框 -->
       <rect width="40" height="40" rx="9" fill="white" stroke="#E8E8E8" stroke-width="1"/>
-      <!-- 几何 D 形：橙色面形外框 -->
-      <polygon points="8,8 24,8 33,17 33,23 24,32 8,32" fill="#FF6B1A"/>
+      <!-- 几何 D 形：蓝色面形外框 -->
+      <polygon points="8,8 24,8 33,17 33,23 24,32 8,32" fill="#1565C0"/>
       <!-- 白色内挖：形成字母 D 的中空 -->
       <polygon points="13,13 21,13 27,18 27,22 21,27 13,27" fill="white"/>
-      <!-- 内部橙色圆点：设计感点睛 -->
-      <circle cx="21.5" cy="20" r="2.8" fill="#FF6B1A"/>
+      <!-- 内部蓝色圆点：设计感点睛 -->
+      <circle cx="21.5" cy="20" r="2.8" fill="#1E90FF"/>
     </svg>
     <div class="logo-text">
       <span class="logo-t1">College of Design</span>
@@ -313,68 +313,51 @@ footer{background:#fff;border-top:1px solid var(--bd);padding:20px 0}
       <svg viewBox="0 0 320 220" width="240" height="165" fill="none" xmlns="http://www.w3.org/2000/svg">
         <defs>
           <linearGradient id="gOr1" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0%" stop-color="#FF6B1A" stop-opacity="0.7"/>
-            <stop offset="100%" stop-color="#FF3D00" stop-opacity="0.3"/>
+            <stop offset="0%" stop-color="#1E90FF" stop-opacity="0.7"/>
+            <stop offset="100%" stop-color="#0050CC" stop-opacity="0.3"/>
           </linearGradient>
           <linearGradient id="gOr2" x1="1" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#FFB060" stop-opacity="0.5"/>
-            <stop offset="100%" stop-color="#FF6B1A" stop-opacity="0.15"/>
+            <stop offset="0%" stop-color="#60B8FF" stop-opacity="0.5"/>
+            <stop offset="100%" stop-color="#1E90FF" stop-opacity="0.15"/>
           </linearGradient>
           <radialGradient id="gGlow" cx="55%" cy="50%" r="50%">
-            <stop offset="0%" stop-color="#FF6B1A" stop-opacity="0.18"/>
-            <stop offset="100%" stop-color="#FF6B1A" stop-opacity="0"/>
+            <stop offset="0%" stop-color="#1E90FF" stop-opacity="0.18"/>
+            <stop offset="100%" stop-color="#1E90FF" stop-opacity="0"/>
           </radialGradient>
         </defs>
-        <!-- ambient glow -->
         <ellipse cx="180" cy="110" rx="160" ry="100" fill="url(#gGlow)"/>
-        <!-- large ring back -->
-        <circle cx="220" cy="100" r="90" stroke="rgba(255,107,26,0.12)" stroke-width="1.5" fill="none"/>
-        <circle cx="220" cy="100" r="70" stroke="rgba(255,107,26,0.1)" stroke-width="1" fill="none"/>
-        <!-- main big circle filled -->
-        <circle cx="230" cy="95" r="62" fill="rgba(255,107,26,0.08)"/>
-        <!-- large arc top-left decorative -->
-        <path d="M60 10 A110 110 0 0 1 200 40" stroke="rgba(255,107,26,0.2)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-        <!-- medium orange ring -->
+        <circle cx="220" cy="100" r="90" stroke="rgba(64,160,255,0.12)" stroke-width="1.5" fill="none"/>
+        <circle cx="220" cy="100" r="70" stroke="rgba(64,160,255,0.1)" stroke-width="1" fill="none"/>
+        <circle cx="230" cy="95" r="62" fill="rgba(64,160,255,0.08)"/>
+        <path d="M60 10 A110 110 0 0 1 200 40" stroke="rgba(64,160,255,0.2)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
         <circle cx="100" cy="160" r="48" stroke="url(#gOr2)" stroke-width="1.2" fill="none"/>
-        <!-- bold accent circle -->
         <circle cx="240" cy="95" r="36" fill="url(#gOr1)" opacity="0.55"/>
-        <!-- inner ring on accent -->
         <circle cx="240" cy="95" r="24" stroke="rgba(255,255,255,0.18)" stroke-width="1" fill="none"/>
-        <!-- diamond center of accent circle -->
         <path d="M240 80 L252 95 L240 110 L228 95 Z" fill="rgba(255,255,255,0.22)" stroke="rgba(255,255,255,0.3)" stroke-width="0.8"/>
-        <path d="M240 87 L247 95 L240 103 L233 95 Z" fill="rgba(255,107,26,0.6)"/>
-        <!-- grid dots 4x4 -->
-        <g fill="rgba(255,107,26,0.3)">
+        <path d="M240 87 L247 95 L240 103 L233 95 Z" fill="rgba(64,160,255,0.6)"/>
+        <g fill="rgba(64,160,255,0.3)">
           <circle cx="52" cy="52" r="1.5"/><circle cx="68" cy="52" r="1.5"/><circle cx="84" cy="52" r="1.5"/><circle cx="100" cy="52" r="1.5"/>
           <circle cx="52" cy="68" r="1.5"/><circle cx="68" cy="68" r="1.5"/><circle cx="84" cy="68" r="1.5"/><circle cx="100" cy="68" r="1.5"/>
           <circle cx="52" cy="84" r="1.5"/><circle cx="68" cy="84" r="1.5"/><circle cx="84" cy="84" r="1.5"/><circle cx="100" cy="84" r="1.5"/>
           <circle cx="52" cy="100" r="1.5"/><circle cx="68" cy="100" r="1.5"/><circle cx="84" cy="100" r="1.5"/><circle cx="100" cy="100" r="1.5"/>
         </g>
-        <!-- triangle top-right -->
-        <polygon points="280,18 310,70 250,70" stroke="rgba(255,160,50,0.35)" stroke-width="1.2" fill="rgba(255,107,26,0.08)"/>
-        <!-- small triangle bottom-left -->
-        <polygon points="30,170 55,210 5,210" stroke="rgba(255,107,26,0.25)" stroke-width="1" fill="rgba(255,107,26,0.06)"/>
-        <!-- horizontal rule line -->
-        <line x1="42" y1="135" x2="175" y2="135" stroke="rgba(255,107,26,0.2)" stroke-width="1" stroke-dasharray="4 6"/>
-        <!-- vertical accent line -->
-        <line x1="170" y1="20" x2="170" y2="120" stroke="rgba(255,107,26,0.15)" stroke-width="1" stroke-dasharray="3 5"/>
-        <!-- floating small diamonds -->
-        <path d="M148 58 L155 66 L148 74 L141 66 Z" stroke="rgba(255,160,50,0.5)" stroke-width="1" fill="rgba(255,107,26,0.1)"/>
-        <path d="M58 145 L63 151 L58 157 L53 151 Z" stroke="rgba(255,107,26,0.4)" stroke-width="1" fill="rgba(255,107,26,0.08)"/>
-        <path d="M295 130 L301 137 L295 144 L289 137 Z" stroke="rgba(255,160,50,0.3)" stroke-width="1" fill="none"/>
-        <!-- small scatter circles -->
-        <circle cx="32" cy="32" r="4" fill="rgba(255,107,26,0.25)"/>
-        <circle cx="160" cy="185" r="5" fill="rgba(255,107,26,0.2)"/>
-        <circle cx="305" cy="165" r="3.5" fill="rgba(255,160,50,0.3)"/>
-        <circle cx="128" cy="175" r="2.5" fill="rgba(255,107,26,0.35)"/>
-        <circle cx="195" cy="28" r="3" fill="rgba(255,107,26,0.3)"/>
-        <!-- cross / plus marks -->
-        <line x1="32" y1="145" x2="32" y2="157" stroke="rgba(255,107,26,0.3)" stroke-width="1.5" stroke-linecap="round"/>
-        <line x1="26" y1="151" x2="38" y2="151" stroke="rgba(255,107,26,0.3)" stroke-width="1.5" stroke-linecap="round"/>
-        <line x1="290" cy="50" x2="290" y2="62" stroke="rgba(255,160,50,0.25)" stroke-width="1.5" stroke-linecap="round"/>
-        <line x1="284" cy="56" x2="296" y2="56" stroke="rgba(255,160,50,0.25)" stroke-width="1.5" stroke-linecap="round"/>
-        <!-- hexagon outline -->
-        <polygon points="118,155 133,147 148,155 148,171 133,179 118,171" stroke="rgba(255,107,26,0.22)" stroke-width="1" fill="none"/>
+        <polygon points="280,18 310,70 250,70" stroke="rgba(64,160,255,0.35)" stroke-width="1.2" fill="rgba(64,160,255,0.08)"/>
+        <polygon points="30,170 55,210 5,210" stroke="rgba(64,160,255,0.25)" stroke-width="1" fill="rgba(64,160,255,0.06)"/>
+        <line x1="42" y1="135" x2="175" y2="135" stroke="rgba(64,160,255,0.2)" stroke-width="1" stroke-dasharray="4 6"/>
+        <line x1="170" y1="20" x2="170" y2="120" stroke="rgba(64,160,255,0.15)" stroke-width="1" stroke-dasharray="3 5"/>
+        <path d="M148 58 L155 66 L148 74 L141 66 Z" stroke="rgba(64,160,255,0.5)" stroke-width="1" fill="rgba(64,160,255,0.1)"/>
+        <path d="M58 145 L63 151 L58 157 L53 151 Z" stroke="rgba(64,160,255,0.4)" stroke-width="1" fill="rgba(64,160,255,0.08)"/>
+        <path d="M295 130 L301 137 L295 144 L289 137 Z" stroke="rgba(64,160,255,0.3)" stroke-width="1" fill="none"/>
+        <circle cx="32" cy="32" r="4" fill="rgba(64,160,255,0.25)"/>
+        <circle cx="160" cy="185" r="5" fill="rgba(64,160,255,0.2)"/>
+        <circle cx="305" cy="165" r="3.5" fill="rgba(64,160,255,0.3)"/>
+        <circle cx="128" cy="175" r="2.5" fill="rgba(64,160,255,0.35)"/>
+        <circle cx="195" cy="28" r="3" fill="rgba(64,160,255,0.3)"/>
+        <line x1="32" y1="145" x2="32" y2="157" stroke="rgba(64,160,255,0.3)" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="26" y1="151" x2="38" y2="151" stroke="rgba(64,160,255,0.3)" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="290" cy="50" x2="290" y2="62" stroke="rgba(64,160,255,0.25)" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="284" cy="56" x2="296" y2="56" stroke="rgba(64,160,255,0.25)" stroke-width="1.5" stroke-linecap="round"/>
+        <polygon points="118,155 133,147 148,155 148,171 133,179 118,171" stroke="rgba(64,160,255,0.22)" stroke-width="1" fill="none"/>
       </svg>
     </div>
   </div>
