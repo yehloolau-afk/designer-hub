@@ -300,24 +300,25 @@ footer{background:#fff;border-top:1px solid var(--bd);padding:20px 0}
   .logo{margin-right:0}
 
   /* ── BANNER：竖排，隐藏右侧装饰 SVG ── */
+  .banner{border-bottom:none}
   .banner-inner{
     flex-direction:column;
-    padding:16px 16px 22px;
+    padding:22px 16px 26px;
     gap:0;
     align-items:flex-start;
   }
   .banner-right{display:none}
-  .banner-kws{gap:6px;margin-bottom:10px}
-  .bkw{font-size:11px;padding:2px 9px}
-  .banner-title{font-size:22px;line-height:1.25;margin-bottom:8px;letter-spacing:-.3px}
+  .banner-kws{gap:6px;margin-bottom:12px}
+  .bkw{font-size:11px;padding:3px 10px}
+  .banner-title{font-size:24px;line-height:1.25;margin-bottom:10px;letter-spacing:-.3px}
   .banner-title em{font-size:13px}
-  .banner-sub{font-size:13px;max-width:100%;line-height:1.65;margin-bottom:18px}
-  .banner-stats{gap:28px;margin-bottom:18px}
-  .bst-n{font-size:20px}
-  .bst-l{font-size:10px}
+  .banner-sub{font-size:13px;max-width:100%;line-height:1.7;margin-bottom:20px}
+  .banner-stats{gap:32px;margin-bottom:20px}
+  .bst-n{font-size:22px}
+  .bst-l{font-size:10px;margin-top:2px}
   .banner-btns{gap:10px}
-  .bbtn-p{font-size:14px;padding:10px 22px}
-  .bbtn-s{font-size:13px;padding:10px 16px}
+  .bbtn-p{font-size:14px;padding:11px 24px;border-radius:8px}
+  .bbtn-s{font-size:13px;padding:11px 18px;border-radius:8px}
 
   /* ── PAGE ── */
   .page{padding:16px 0 24px}
@@ -891,11 +892,9 @@ function mobNav(type,el){
   el.classList.add('active');
   window.scrollTo({top:0,behavior:'smooth'});
   if(type==='home'){
-    showAll(document.querySelector('.nl'));
-    document.querySelector('.nl').classList.add('on');
+    showAll(null);
   }else{
-    const nlEl=document.querySelector('.nl[onclick="filterNav(\''+type+'\',this)"]');
-    filterNav(type,nlEl);
+    filterNav(type,null);
   }
 }
 document.querySelectorAll('.stabs').forEach(g=>{
