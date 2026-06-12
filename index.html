@@ -260,6 +260,100 @@ footer{background:#fff;border-top:1px solid var(--bd);padding:20px 0}
 .ft-l{font-size:12px;color:var(--t3);cursor:pointer;transition:color .15s}
 .ft-l:hover{color:var(--pr)}
 .ft-copy{font-size:12px;color:var(--t3)}
+
+/* ═══ MOBILE RESPONSIVE ═══ */
+@media(max-width:767px){
+  /* NAV: 折叠为两行，logo行 + tabs行 */
+  .ni{flex-wrap:wrap;height:auto;padding:0 16px}
+  .logo{height:50px;flex:1;margin-right:0}
+  .nd,.btn-ln{display:none}
+  .nr{height:50px}
+  .btn-pub{padding:5px 12px;font-size:12px}
+  .nlinks{order:10;flex:none;width:100%;height:40px;overflow-x:auto;scrollbar-width:none;border-top:1px solid var(--bd2);padding:0 2px;gap:0}
+  .nlinks::-webkit-scrollbar{display:none}
+  .nl{height:40px;padding:0 10px;font-size:13px}
+
+  /* BANNER: 单列，隐藏装饰图 */
+  .banner-inner{flex-direction:column;padding:16px 16px 20px;gap:0;align-items:flex-start}
+  .banner-right{display:none}
+  .banner-title{font-size:20px;margin-bottom:8px}
+  .banner-sub{font-size:12px;max-width:100%;margin-bottom:16px}
+  .banner-stats{gap:24px;margin-bottom:20px}
+  .bst-n{font-size:18px}
+  .bbtn-p,.bbtn-s{font-size:13px;padding:8px 16px}
+
+  /* PAGE */
+  .page{padding:12px 12px 48px}
+
+  /* FEATURED: 竖向堆叠，side 横向滚动 */
+  .featured{display:flex!important;flex-direction:column;gap:10px;margin-bottom:16px}
+  .feat-main .feat-img{height:150px}
+  .feat-title{font-size:14px}
+  .feat-desc{font-size:12px;margin-bottom:10px}
+  .feat-side{display:flex;flex-direction:row;gap:8px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px;-webkit-overflow-scrolling:touch}
+  .feat-side::-webkit-scrollbar{display:none}
+  .fs{flex:none;flex-direction:column;min-width:150px;min-height:0}
+  .fs img,.fs-img{width:100%;height:80px;min-height:80px;align-self:auto}
+  .fs-body{padding:8px 10px}
+  .fs-title{font-size:12px}
+  .fs-meta{font-size:10px}
+
+  /* SECTION */
+  .sec-name{font-size:14px}
+  .sec-sub{display:none}
+  .stabs{overflow-x:auto;scrollbar-width:none;padding-bottom:4px;flex-wrap:nowrap}
+  .stabs::-webkit-scrollbar{display:none}
+  .stab{white-space:nowrap;flex-shrink:0}
+
+  /* GRID: 2列 */
+  .g2{grid-template-columns:repeat(2,1fr);gap:10px}
+
+  /* ARTICLE CARD */
+  .ac-img{height:90px}
+  .ac-body{padding:8px 10px 10px}
+  .ac-title{font-size:12px}
+  .ac-desc{display:none}
+
+  /* VIDEO CARD */
+  .vc-thumb{height:90px}
+  .play-btn{width:32px;height:32px}
+  .play-btn svg{width:32px;height:32px}
+  .vc-body{padding:8px 10px 10px}
+  .vc-title{font-size:12px}
+  .vc-sub{display:none}
+
+  /* LIST PANEL: 全屏 */
+  .lp-panel{width:100vw;right:-100vw;max-width:100vw}
+  .lp-panel.on{right:0}
+
+  /* READER PANEL: 全屏 */
+  .rd-panel{width:100vw;right:-100vw;max-width:100vw}
+  .rd-panel.open{right:0}
+  .rd-top{padding:0 16px;height:50px}
+  .rd-scroll{padding:20px 16px 48px}
+  .rd-cover{height:160px;margin-bottom:18px}
+  .rd-h1{font-size:20px;margin-bottom:12px}
+  .rd-body{font-size:14px}
+
+  /* MODAL: 底部抽屉式 */
+  .overlay{align-items:flex-end}
+  .mbox{width:100%;max-width:100%;border-radius:16px 16px 0 0;max-height:85vh;overflow-y:auto}
+  .vm,.pm{max-width:100%;border-radius:16px 16px 0 0}
+  .pmbody{padding:16px}
+
+  /* FOOTER */
+  .fi{flex-direction:column;align-items:flex-start;gap:10px;padding:16px}
+  .ft-links{flex-wrap:wrap;gap:10px}
+  .ft-copy{font-size:11px}
+}
+
+/* 极小屏（360px以下）: 单列 */
+@media(max-width:360px){
+  .g2{grid-template-columns:1fr}
+  .feat-side{flex-direction:column;overflow:visible}
+  .fs{min-width:0;flex-direction:row}
+  .fs img,.fs-img{width:80px;height:60px;min-height:60px}
+}
 </style>
 </head>
 <body>
