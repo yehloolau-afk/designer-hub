@@ -1,4 +1,4 @@
-# College of Design · 设计师成长学院
+# College of Design
 
 **Live →** [yehloolau-afk.github.io/designer-hub](https://yehloolau-afk.github.io/designer-hub/)
 
