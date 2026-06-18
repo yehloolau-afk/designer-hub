@@ -1,27 +1,45 @@
-# College of Design
+# College of Design · 藏经阁
 
-**Live →** [yehloolau-afk.github.io/designer-hub](https://yehloolau-afk.github.io/designer-hub/)
+**Status: Coming Soon**
 
-A curated knowledge platform for designers. Three tracks of deep content on UX methods, AIGC techniques, and career growth — all in one place.
-
----
-
-## Content Tracks
-
-**UX Design** — Product design fundamentals and case studies. B-end vs C-end design, designer value in business, interaction logic, and more.
-
-**AIGC** — How designers work with generative AI. Prompt craft, workflow integration, creative techniques.
-
-**Design Growth** — Career and craft. How to grow as a designer in the AI era.
-
-Each track includes articles and videos, filterable by type.
+A curated knowledge platform for designers growing in the AI era. Three focused tracks, hand-picked resources, no fluff.
 
 ---
 
-## How it's built
+## Tracks
 
-- Single HTML file — open and use, no install
-- No backend, no login, no framework
+**🎨 UX Design**
+Product design fundamentals and real-world case studies. B-end and C-end design principles, interaction logic, designer value in business.
+
+**🤖 AIGC for Designers**
+How to actually use generative AI in a design workflow. Prompt crafting, image generation, video production, workflow integration.
+
+**📈 Design Growth**
+Career and craft. How to grow as a designer — portfolio, influence, staying relevant in the AI era.
+
+---
+
+## What it will be
+
+- Curated articles and videos for each track, filterable by type
+- Short summaries so you know if something is worth reading
+- Single HTML file — open and use, no install, no login
+
+---
+
+## Status
+
+Core platform is built. Content curation and final polish are in progress. ETA: soon.
+
+---
+
+## Stack
+
+- Single HTML file — no framework, no backend
 - Mobile-friendly with bottom tab navigation
 
-`Vanilla HTML / CSS / JS` · `GitHub Pages`
+`Claude Code` · `Vanilla HTML / CSS / JS` · `GitHub Pages`
+
+---
+
+⭐ Star this to get notified when it launches!
