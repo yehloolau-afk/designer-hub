@@ -1,4 +1,4 @@
-# College of Design · 藏经阁
+# College of Design
 
 **Status: Coming Soon**
 
@@ -8,13 +8,13 @@ A curated knowledge platform for designers growing in the AI era. Three focused 
 
 ## Tracks
 
-**🎨 UX Design**
+**UX Design**
 Product design fundamentals and real-world case studies. B-end and C-end design principles, interaction logic, designer value in business.
 
-**🤖 AIGC for Designers**
+**AIGC for Designers**
 How to actually use generative AI in a design workflow. Prompt crafting, image generation, video production, workflow integration.
 
-**📈 Design Growth**
+**Design Growth**
 Career and craft. How to grow as a designer — portfolio, influence, staying relevant in the AI era.
 
 ---
@@ -29,7 +29,7 @@ Career and craft. How to grow as a designer — portfolio, influence, staying re
 
 ## Status
 
-Core platform is built. Content curation and final polish are in progress. ETA: soon.
+Core platform is built. Content curation and final polish are in progress.
 
 ---
 
@@ -42,4 +42,4 @@ Core platform is built. Content curation and final polish are in progress. ETA: 
 
 ---
 
-⭐ Star this to get notified when it launches!
+Star this to follow along.
