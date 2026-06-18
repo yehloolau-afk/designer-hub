@@ -1,5 +1,7 @@
 # College of Design
 
+**Live →** [yehloolau-afk.github.io/college-of-design](https://yehloolau-afk.github.io/college-of-design/)
+
 **Status: Coming Soon**
 
 A curated knowledge platform for designers growing in the AI era. Three focused tracks, hand-picked resources, no fluff.
